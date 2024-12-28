@@ -11,15 +11,15 @@
 
 .link-active {
   text-decoration: none;
-  pointer-events: none;
   cursor: default;
+  pointer-events: none;
 }
 
 .header__links-list {
   display: flex;
   column-gap: 33px;
-  list-style: circle;
   text-underline-offset: 3px;
+  list-style: circle;
 }
 
 .links-list-item_no-bullit {
@@ -259,13 +259,13 @@
 }
 
 .about__text {
-  font-family: Raleway, sans-serif;
-  line-height: 24px;
-  font-weight: 400;
-  font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .footer {
