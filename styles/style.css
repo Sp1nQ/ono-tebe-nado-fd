@@ -1,18 +1,16 @@
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items:center;
+  align-items: center;
   padding: 92px 50px 96px 50px;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
   text-decoration-skip-ink: none;
-  
 }
 
 .link-active {
-  text-decoration: none; 
+  text-decoration: none;
   pointer-events: none;
   cursor: default;
 }
@@ -20,22 +18,19 @@
 .header__links-list {
   display: flex;
   column-gap: 33px;
-  list-style:circle;
+  list-style: circle;
   text-underline-offset: auto;
   text-underline-offset: 3px;
-  
 }
 
-.header__links-list-item_no-bullit {
+.links-list-item_no-bullit {
   list-style-type: none;
 }
-
 
 .header__logo-image {
   display: block;
   width: 148px;
   height: 105px;
-  
 }
 
 .address {
@@ -61,15 +56,13 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
-
+  background-size: cover;
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgb(0 0 0 / 0.6); 
-
+  background: rgb(0 0 0 / 0.6);
 }
 
 .cover__title {
@@ -94,12 +87,13 @@
   padding-bottom: 20px;
   padding-left: 30px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .aligned-text_right {
   padding-left: 613px;
   text-align: end;
-  
+  text-transform: uppercase;
 }
 
 .cover__description {
@@ -107,7 +101,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .cover__description-text {
@@ -133,7 +126,6 @@
 .lots {
   padding-right: 24px;
   padding-left: 24px;
-
 }
 
 .lots__heading {
@@ -144,7 +136,6 @@
   font-size: 40px;
   line-height: 46.96px;
   text-transform: uppercase;
-
 }
 
 .lots__card-list {
@@ -156,8 +147,7 @@
   width: 100%;
   height: 100%;
   margin-bottom: 30px;
-  }
-
+}
 
 .lots__card-list-item {
   display: flex;
@@ -188,12 +178,10 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  
 }
 
 .card_type_picture {
@@ -211,7 +199,6 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   text-transform: uppercase;
-
 }
 
 .card__text {
@@ -238,7 +225,6 @@
   display: grid;
   grid-template-columns: 359px 1fr;
   padding: 120px 24px 180px;
-
 }
 
 .logo_column {
