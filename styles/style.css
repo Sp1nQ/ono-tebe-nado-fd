@@ -74,25 +74,23 @@
   font-size: 100px;
   line-height: 115px;
   letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .aligned-text {
   padding-bottom: 20px;
   text-align: start;
-  text-transform: uppercase;
 }
 
 .aligned-text_center {
   padding-bottom: 20px;
   padding-left: 30px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .aligned-text_right {
   padding-left: 613px;
   text-align: end;
-  text-transform: uppercase;
 }
 
 .cover__description {
