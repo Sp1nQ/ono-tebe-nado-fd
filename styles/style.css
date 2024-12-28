@@ -19,7 +19,6 @@
   display: flex;
   column-gap: 33px;
   list-style: circle;
-  text-underline-offset: auto;
   text-underline-offset: 3px;
 }
 
